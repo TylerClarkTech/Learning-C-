@@ -2,8 +2,8 @@
    Date: 02 / 26 / 24
 
     3. Sales Tax
-        Write a program that will compute the total sales tax on a $95 purchase.
-        Assume the state sales tax is 4%, and the country sales tax is 2%.
+        Write a program that will compute the total sales tax on a purchase.
+        
 */
 
 #include <iostream>

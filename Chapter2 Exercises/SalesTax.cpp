@@ -1,7 +1,7 @@
 /* Name: Tyler Jordan Clark 
    Date: 02 / 26 / 24
 
-    3. Sales Tax
+      Sales Tax
         Write a program that will compute the total sales tax on a purchase.
         
 */

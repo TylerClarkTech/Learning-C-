@@ -1,0 +1,25 @@
+/*
+
+Name:       Tyler Jordan Clark
+Date:       03/19/24
+Purpose:    A car holds 12 gallons of gasoline and can travel 315 miles before refueling. What is the cars mile's per gallon?
+
+*/
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+      int gasTank = 12;
+      int maxMiles = 315;
+      int mpg;
+
+      //miles per gallon equals the maximum miles divided by the gas tank size (in gallons)
+      mpg = maxMiles / gasTank;
+
+      cout << endl << "A car can hold 12 gallons of gas and can travel 315 miles before refueling." << endl << "This means it's miles per gallon is: " << mpg << endl;
+      
+}

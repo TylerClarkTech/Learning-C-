@@ -1,0 +1,29 @@
+/*
+
+Name:       Tyler Jordan Clark
+Date:       03/19/24
+Purpose:    Find max distance for a car in town and on the highway, based on miles per gallon.
+
+*/
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+      int gasTank = 20;
+      float maxMilesTown;
+      float maxMilesHighway;
+      float mpgTown = 25.5;
+      float mpgHighway = 26.3;
+
+      //miles per gallon equals the maximum miles divided by the gas tank size (in gallons)
+      maxMilesTown = mpgTown * gasTank;
+      maxMilesHighway = mpgHighway * gasTank;
+
+      cout << endl << "If a car has a 20 gallon tank and can get 25.5mpg in town " << endl << "and 26.3mpg on the highway then the maximum distance in town and on highway is: " << endl;
+      cout << "Maximum Distance in town: " << maxMilesTown << endl;
+      cout << "Maximum Distance on highway: " << maxMilesHighway << endl;
+}
